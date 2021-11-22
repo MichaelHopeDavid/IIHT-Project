@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #e3e3e3;
+    font-family: Nunito, Verdana, Geneva, Tahoma, sans-serif;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+}
+.navbar-brand img{
+    height: 90px;
+    width: 300px;
+    padding: 0px 10px 0px 20px;
+}
+.navbar-nav{
+    display: flex;
+    align-items: center;
+}
+.navbar-nav li{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.863);
+}
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+    font-size: 20px;
+}
+#navbar ul li a:hover{
+    color: #52a4fc !important;
+}
+.navbar-toggler{
+    border: none !important;
+}
+.nav-link{
+    color: rgba(255, 255, 255, 0.863)!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+ #intro{
+    background: linear-gradient( rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/mainq.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef;
+    background-attachment: fixed;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    height: 720px;
+}
+.intro-content{
+    padding-top: 200px;
+}
+.container h1{
+    font-size: 40px;
+}
+.container h1{
+    letter-spacing: 0;
+    text-decoration: underline;
+}
+#about{
+    padding: 50px;
+    color: #062241;
+}
+#about .container .row h2{
+    text-align: center;
+    text-decoration: underline;
+    padding: 10px;
+}
+#about .container .row .about-content{
+    padding-top: 40px;
+} 
+#about .container .row .btn{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    color: white !important;
+    border-radius: 20px;
+    padding: 15px;
+    float: left;
+}
+#about .container .row .btn:hover{
+    background-color: rgb(4, 65, 134) !important;
+}
+#about .container .row a{
+    text-decoration: none;
+    color: white;
+}
+.about-content{
+    margin-top: 10px;
+    float: left;
+    font-size: 20px;
+}
+.skills-bar p{
+    margin-top:30px;
+    font-weight: 600px;
+}
+.progress-bar{
+    border-radius: 16px;
+}
+.progress{
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+#services{
+    padding: 50px;
+    background-color: #e3e3e3;
+}
+#services .info{
+    width: 300px;
+    height: 220px;
+    margin: 25px auto 25px;
+    padding: 10px;
+    border-color: #062241;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: #0d1e30;
+}
+#consult{
+  background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../img/sap1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	color: #fff;
+	text-align: center;
+	padding: 90px;
+	font-family: sans-serif;
+	font-size: 38px;
+}
+#consult .btn:hover{
+  background-color: transparent;
+}
+#contact{
+    padding-top: 40px;
+    color: #062241;
+}
+.contact-form{
+    padding: 35px;
+}
+.form-control{
+    border-radius: 0!important;
+    border: none !important;
+}
+::placeholder{
+    color: #062241 !important;
+}
+.follow{
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+}
+.contact-info .fa{
+    margin: 10px;
+    /* color: #007b#0e3258; */
+     
+    font-weight: bold;
+}
+.footer-dark {
+    padding:50px 0;
+    color:#f0f9ff;
+    
+    background-color:#282d32;
+  }
+  
+  .footer-dark h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+  }
+  
+  .footer-dark ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  
+  .footer-dark ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.6;
+  }
+  
+  .footer-dark ul a:hover {
+    opacity:0.8;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+      text-align:center;
+      padding-bottom:20px;
+    }
+  }
+  
+  .footer-dark .item.text {
+    margin-bottom:36px;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item.text {
+      margin-bottom:0;
+    }
+  }
+  
+  .footer-dark .item.text p {
+    opacity:0.6;
+    margin-bottom:0;
+  }
+  
+  .footer-dark .item.social {
+    text-align:center;
+  }
+  
+  @media (max-width:991px) {
+    .footer-dark .item.social {
+      text-align:center;
+      margin-top:20px;
+    }
+  }
+  
+  .footer-dark .item.social > a {
+    font-size:20px;
+    width:36px;
+    height:36px;
+    line-height:36px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+    margin:0 8px;
+    color:#fff;
+    opacity:0.75;
+  }
+  
+  .footer-dark .item.social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-dark .copyright {
+    text-align:center;
+    padding-top:24px;
+    opacity:0.3;
+    font-size:13px;
+    margin-bottom:0;
+  }
